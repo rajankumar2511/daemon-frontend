@@ -1,7 +1,7 @@
 /* ===================== Messages.jsx ===================== */
 
 import { useRef, useEffect, useState, useCallback } from "react";
-import { Send, Paperclip, Trash2, X, CheckCircle, Smile, Image, Mic, File, MoreHorizontal, Download, Eye, CheckCheck } from "lucide-react";
+import { Send, Paperclip, Trash2, X, CheckCircle, Smile, Image, Mic, File, MoreHorizontal, Download, Eye, CheckCheck,Check } from "lucide-react";
 import { toast } from "react-toastify";
 import ChatHeader from "./ChatHeader";
 import { emitTyping, emitStopTyping, socket } from "../Sockets/Socket";
